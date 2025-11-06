@@ -1,6 +1,10 @@
 asgiref==3.8.1
 Django==5.2
-django-rest-framework==0.1.0
 djangorestframework==3.16.0
+django-rest-framework==0.1.0
+gunicorn
+whitenoise
+dj-database-url
+python-dotenv
 sqlparse==0.5.3
 tzdata==2025.2
