@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-d(lo%c5in6g%dowfhd=@i0%fsq-f95wu#l0#mta^679^nb-b^#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'jobboard-vhib.onrender.com', 'localhost', '127.0.0.1'
+]
 
 
 # Application definition
